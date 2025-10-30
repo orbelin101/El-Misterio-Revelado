@@ -114,7 +114,10 @@ nav {
         flex-direction: column;
         border-radius: 4px;
     }
-
+        nav ul ul ul li a {
+            color: #000; /* Texto negro */
+            font-weight: bold; /* Negrita */
+        }
     nav li.has-submenu.open > ul {
         opacity: 1;
         visibility: visible;
@@ -128,7 +131,8 @@ nav {
         top: 0;
         display: none;
         position: absolute;
-        background: #003399;
+        background: linear-gradient( 145deg, rgba(255, 200, 50, 0.6), rgba(255, 180, 0, 0.6), rgba(255, 220, 100, 0.6), rgba(255, 255, 255, 0.1) );
+    }
         z-index: 999;
         flex-direction: column;
     }
